@@ -34,6 +34,12 @@ Creation of a Cheat Sheet for upcoming projects
 
 &rarr; [Cheat Sheet](https://github.com/VelvetFractal/voila/blob/main/uml/Clean%20Code%20Development%20CS.md)
 
+## 8. Build
+Using Pybuilder to build a project
+
+&rarr; look for the files [here](https://github.com/VelvetFractal/voila/tree/main/pybuilder)
+
+
 ## 9. UnitTests
 
 &rarr; [find tests here](https://github.com/VelvetFractal/voila/blob/main/tests.py)

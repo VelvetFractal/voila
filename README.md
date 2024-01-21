@@ -1,9 +1,27 @@
 # voila
+installing dependencies:
+`pip install -r things/requirements.txt`
+
+start the program: 
+`python python/main.py`
 
 ## 1. Git
 usage of GitHub for the whole project time
 
 &rarr; [See commit history here](https://github.com/VelvetFractal/voila/commits)
+
+## 5. Clean Code Dev
+Adding clen code developemnt for improved usage and readabilty as well as for better maintance of code.
+
+### A)
+&rarr; [explantion of functions](https://github.com/VelvetFractal/voila/blob/main/main.py#L15)
+
+&rarr; [parameter and return types](https://github.com/VelvetFractal/voila/blob/main/main.py#L20)
+
+
+## 9. UnitTests
+
+&rarr; [find tests here](https://github.com/VelvetFractal/voila/blob/main/tests.py)
 
 
 ## 10. IDE

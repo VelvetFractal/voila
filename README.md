@@ -18,6 +18,10 @@ Adding clen code developemnt for improved usage and readabilty as well as for be
 
 &rarr; [parameter and return types](https://github.com/VelvetFractal/voila/blob/main/main.py#L20)
 
+&rarr; [docstrings](https://github.com/VelvetFractal/voila/blob/main/main.py#L71)
+
+&rarr; [one assert per test](https://github.com/VelvetFractal/voila/blob/main/tests.py#L1)
+
 
 ## 9. UnitTests
 

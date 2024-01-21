@@ -62,11 +62,20 @@ def handle_stop(message):
     global stop_flag
     bot.reply_to(message, 'Enter a new wallet')
     bot.send_message(message.chat.id, 'Enter adress to monitor it')
-    stop_flag = True    
+    stop_flag = True  
 
-#main function
+
 @bot.message_handler(content_types=['text'])   
 def main_work(message):
+    '''
+    Returns: None
+    Parameters: - message (telegram.Message): The incoming Telegram message that triggers the wallet monitoring.
+                - stop_flag (bool): A global flag indicating whether to stop the monitoring loop.
+        
+    The function sets up a continuous monitoring loop for an Ethereum wallet. It checks the balance and
+    activity of the specified wallet and sends notifications if there are changes. The monitoring loop
+    continues until the global stop_flag is set to True.
+    '''
     global stop_flag
     stop_flag = False 
     if len(message.text.strip().upper()) != 42:
@@ -75,7 +84,7 @@ def main_work(message):
     wallet_address = message.text.strip()
     previous_balance = w3.eth.get_balance(wallet_address)
     transaction_info = ''
-    while  not stop_flag:
+    while not stop_flag:
             if check_wallet_balance(wallet_address, previous_balance, message):
                 previous_balance = w3.eth.get_balance(wallet_address)
             if transaction_info != check_wallet_activity(wallet_address, message) and check_wallet_activity(wallet_address, message) != None:

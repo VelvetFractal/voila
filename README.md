@@ -17,7 +17,7 @@ usage of GitHub for the whole project time
 
 &rarr; [See commit history here](https://github.com/VelvetFractal/voila/commits)
 
-## 5. Clean Code Dev
+## 7. Clean Code Dev
 Adding clen code developemnt for improved usage and readabilty as well as for better maintance of code.
 
 ### A)
@@ -29,6 +29,8 @@ Adding clen code developemnt for improved usage and readabilty as well as for be
 
 &rarr; [one assert per test](https://github.com/VelvetFractal/voila/blob/main/tests.py#L1)
 
+&rarr; [loops usage](https://github.com/VelvetFractal/voila/blob/main/main.py#87)
+
 ### B)
 Creation of a Cheat Sheet for upcoming projects 
 
@@ -36,12 +38,13 @@ Creation of a Cheat Sheet for upcoming projects
 
 ## 8. Build
 Using Pybuilder to build a project
-
+(not sure that I did it right hehe)
 &rarr; look for the files [here](https://github.com/VelvetFractal/voila/tree/main/pybuilder)
 
 
 ## 9. UnitTests
 
+Just a few unit test because I can't even imagine any other that I can add here
 &rarr; [find tests here](https://github.com/VelvetFractal/voila/blob/main/tests.py)
 
 
@@ -59,3 +62,16 @@ Adding most favorite shortcuts here and create own to allow faster developemnt w
 
 &rarr; *own Shortcut*: 
 - ```ctrl + shit + 9``` (run)
+
+## 11. Functional Programming
+&rarr; [only final data structures](https://github.com/VelvetFractal/voila/blob/main/main.py#L68)
+
+&rarr; [side-effect-free function](https://github.com/VelvetFractal/voila/blob/main/main.py#L20)
+
+&rarr; [parameter and return types](https://github.com/VelvetFractal/voila/blob/main/main.py#L16)
+
+&rarr; [functions as parameters and return values](https://github.com/VelvetFractal/voila/blob/main/main.py#L49)
+
+&rarr; [usege of  closures](https://github.com/VelvetFractal/voila/blob/main/tests.py#L90) a lot of them, for example check_wallet_activity
+
+&rarr; [loops usage](https://github.com/VelvetFractal/voila/blob/main/main.py#87)

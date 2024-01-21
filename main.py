@@ -46,7 +46,7 @@ def check_wallet_balance(wallet_address, previous_balance, message):
     return False
 
 
-def check_wallet_activity(wallet_address, message):
+def check_wallet_activity(wallet_address):
     latest_block_number = get_latest_block_number()
 
     for block_number in range(latest_block_number, max(0, latest_block_number - 10), -1):

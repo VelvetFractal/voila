@@ -5,6 +5,13 @@ installing dependencies:
 start the program: 
 `python python/main.py`
 
+find the bot in telegram by the name: ethgodbot
+[or just click here](https://t.me/ethgodbot)
+
+Bot has only two commands
+1. `/start` starts the bot
+2. `/stop` stop tracking current wallet and allows user to write another wallet
+
 ## 1. Git
 usage of GitHub for the whole project time
 

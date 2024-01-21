@@ -12,7 +12,7 @@ w3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/bc2ee063a84741f3babf0e
 
 @bot.message_handler(commands=["start"])
 def start(message):
-    bot.send_message(message.chat.id, 'Привет, введите кошелек для мониторинга')
+    bot.send_message(message.chat.id, 'Hello! Enter wallet to monitor it')
 
 def get_latest_block_number():
     return w3.eth.block_number
@@ -59,7 +59,7 @@ def check_wallet_activity(wallet_address, message):
 @bot.message_handler(commands=['stop'])
 def handle_stop(message):
     global stop_flag
-    bot.reply_to(message, '))')
+    bot.reply_to(message, 'Enter a new wallet')
     bot.send_message(message.chat.id, 'Enter adress to monitor it')
     stop_flag = True    
 
@@ -70,7 +70,7 @@ def main_work(message):
     stop_flag = False 
     if len(message.text.strip().upper()) != 42:
         bot.send_message(message.chat.id, 'This is not an ETH address')
-    bot.send_message(message.chat.id, 'Im starting ')    
+    bot.reply_to(message, 'Monitoring this wallet')    
     wallet_address = message.text.strip()
     previous_balance = w3.eth.get_balance(wallet_address)
     transaction_info = ''

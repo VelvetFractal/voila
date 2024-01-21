@@ -1,7 +1,6 @@
 import telebot
 from web3 import Web3
 import time
-import threading
 
 
 TELEGRAM_BOT_TOKEN = '6775443880:AAE0RhxESCup7zyyCLnu2hrX7cjPd_-QypY'

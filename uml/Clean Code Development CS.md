@@ -1,4 +1,4 @@
-# IngredientRecipeFinder
+# Ethereum monitor bot
 
 1. Explanatory variables
 2. Readability (remove all unnecessary lines of code and etc.)

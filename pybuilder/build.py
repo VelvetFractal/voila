@@ -8,10 +8,15 @@ use_plugin("python.coverage")
 use_plugin("python.distutils")
 
 
+
 name = "pybuilder"
 default_task = "publish"
-
+version = "1.0"
+url ="https://github.com/VelvetFractal/voila"
+desciption = "Telegram bot that allows you to monitor wallets on Ethereum"
+authors = "VelvetFractal"
+license = "none"
 
 @init
-def set_properties(project):
+def set_properties():
     pass

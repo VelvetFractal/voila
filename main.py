@@ -12,10 +12,11 @@ w3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/bc2ee063a84741f3babf0e
 @bot.message_handler(commands=["start"])
 def start(message):
     bot.send_message(message.chat.id, 'Hello! Enter wallet to monitor it')
-
+#getting information about last block using web3 library
 def get_latest_block_number():
     return w3.eth.block_number
 
+#filtering useful parameters from all infromation from whole block
 def get_transaction_info(block_number, wallet_address):
     block = w3.eth.get_block(block_number, full_transactions=True)
     
@@ -31,6 +32,7 @@ def get_transaction_info(block_number, wallet_address):
 
     return None
 
+#getting the wallet balance and updating it if balance is changed
 def check_wallet_balance(wallet_address, previous_balance, message):
     current_balance = w3.eth.get_balance(wallet_address)
     
@@ -54,7 +56,7 @@ def check_wallet_activity(wallet_address, message):
             return transaction_info
     return None    
         
-
+#function that allows user to stop monitoring current wallet so user can add another wallet
 @bot.message_handler(commands=['stop'])
 def handle_stop(message):
     global stop_flag
@@ -62,7 +64,7 @@ def handle_stop(message):
     bot.send_message(message.chat.id, 'Enter adress to monitor it')
     stop_flag = True    
 
-
+#main function
 @bot.message_handler(content_types=['text'])   
 def main_work(message):
     global stop_flag

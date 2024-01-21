@@ -6,7 +6,7 @@ usage of GitHub for the whole project time
 &rarr; [See commit history here](https://github.com/VelvetFractal/voila/commits)
 
 
-## 9. IDE
+## 10. IDE
 Adding most favorite shortcuts here and create own to allow faster developemnt without lifting hands from keyboard
 
 ### Pycharm  

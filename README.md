@@ -1,4 +1,6 @@
-# voila
+# Ethereum telegram monitor bot
+This programm made as project for "software development" classes and it allows user to use a bot that will notify the user of any changes on the wallet that it monitors, as well as write with which address was made interaction
+
 installing dependencies:
 `pip install -r things/requirements.txt`
 

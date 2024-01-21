@@ -22,6 +22,10 @@ Adding clen code developemnt for improved usage and readabilty as well as for be
 
 &rarr; [one assert per test](https://github.com/VelvetFractal/voila/blob/main/tests.py#L1)
 
+### B)
+Creation of a Cheat Sheet for upcoming projects 
+
+&rarr; [Cheat Sheet](https://github.com/VelvetFractal/voila/blob/main/uml/Clean%20Code%20Development%20CS.md)
 
 ## 9. UnitTests
 

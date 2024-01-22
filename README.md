@@ -17,8 +17,12 @@ Bot has only two commands
 ## 1. Git
 usage of GitHub for the whole project time
 
-
 &rarr; [See commit history here](https://github.com/VelvetFractal/voila/commits)
+
+## 2. UML 
+UML Diagramm created made in Planttext
+
+&rarr; [PNGs and Planttext-Files](https://github.com/VelvetFractal/voila/tree/main/uml%20and%20other/uml-diag)
 
 ## 5. DDD
 Creation with Miro of Event Storming file and resulting Diagrams and DDD 

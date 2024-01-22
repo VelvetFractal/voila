@@ -70,7 +70,7 @@ Adding clen code developemnt for improved usage and readabilty as well as for be
 ### B)
 Creation of a Cheat Sheet for upcoming projects 
 
-&rarr; [Cheat Sheet](https://github.com/VelvetFractal/voila/blob/main/uml/Clean%20Code%20Development%20CS.md)
+&rarr; [Cheat Sheet](https://github.com/VelvetFractal/voila/blob/main/uml%20and%20other/Clean%20Code%20Development%20CS.md)
 
 ## 8. Build
 Using Pybuilder to build a project

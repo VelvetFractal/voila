@@ -91,7 +91,7 @@ Adding most favorite shortcuts here and create own to allow faster developemnt w
   
 &rarr; *build-in*:
 - ```ctrl + f``` (find) 
-- ```option + c/v/x``` (copy/paste/cut)
+- ```ctrl + c/v/x``` (copy/paste/cut)
 - ```ctrl + h``` (replace)
 - ```ctrl + /``` (comment (out))  
 

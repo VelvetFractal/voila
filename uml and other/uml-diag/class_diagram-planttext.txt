@@ -1,0 +1,67 @@
+@startuml
+
+class TelegramBot {
+  - TELEGRAM_BOT_TOKEN: String
+  - stop_flag: Boolean
+  - bot: Telebot
+  - w3: Web3
+  + start(message: Message): void
+  + getLatestBlockNumber(): int
+  + getTransactionInfo(blockNumber: int, walletAddress: String): Map<String, Object>
+  + checkWalletBalance(walletAddress: String, previousBalance: int, message: Message): boolean
+  + checkWalletActivity(walletAddress: String, message: Message): Map<String, Object>
+  + handleStop(message: Message): void
+  + mainWork(message: Message): void
+}
+
+class Web3 {
+  - provider: String
+  + getBalance(walletAddress: String): int
+  + fromWei(value: int, unit: String): float
+  + eth: Eth
+}
+
+
+class WalletActivity {
+  obj latest_block_number
+  + get_latest_block_number()
+  + get_transaction_info(block_number, wallet_address)
+}
+
+class walletBalance {
+  int CurrentBalance
+  + get_balance(wallet_address)
+}
+
+class transaction_info {
+  obj block
+  + Get_block(block_number, full_transactions=True)
+}
+
+class mainWork {
+  bull stop_flag
+  obj block
+  string wallet_address
+  string transaction_info
+  int previous_Balance
+
+  + send_message()
+  + reply_to()
+  + check_wallet_balance()
+  + get_balance()
+  + check_wallet_activity()
+}
+
+
+mainWork --^ TelegramBot
+mainWork --^ Web3
+mainWork --^ WalletActivity
+mainWork --^ walletBalance
+web3 --^ walletBalance
+web3 --^ transaction_info
+web3 --^ WalletActivity
+
+
+
+
+@enduml

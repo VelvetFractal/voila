@@ -1,0 +1,32 @@
+@startuml
+left to right direction
+package user{
+actor "User" as u
+}
+package ethmonitorbot{
+usecase "addwallet" as ad
+usecase "delete wallet" as dw
+usecase "balancechanging" as bch
+usecase "blockinfo" as bi
+}
+
+package TelegramBot {
+usecase "wallet monitor" as wm
+usecase "balance change notification" as bc
+usecase "wallet changer" as wc
+usecase "transactioninformation" as ti
+}
+
+u --> wm
+u --> bc
+u --> wc
+wc <-- dw 
+wm <-- ad
+bc <-- bch
+ti <-- bi
+bc <-- bi
+wc <-- ad
+wm <-- bch
+
+
+@enduml

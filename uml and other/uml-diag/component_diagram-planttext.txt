@@ -1,0 +1,34 @@
+@startuml
+
+title Component Diagram
+
+package "Telegram" {
+    component [Graphic User\nInterface] as GUI
+}
+
+
+actor User
+
+component Telegram_api
+component Telegram_database as tdb
+component [web3api] as w3
+component monitorbot as mb
+component ethblockchain as ethb
+component "Backend Logic" as BL
+
+User --> GUI 
+
+GUI --> Telegram_api
+
+Telegram_api --> tdb
+Telegram_api --> BL
+
+BL --> ethb
+ethb --> w3
+w3 --> mb
+BL --> mb
+
+
+
+
+@enduml

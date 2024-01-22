@@ -65,7 +65,7 @@ Adding clen code developemnt for improved usage and readabilty as well as for be
 
 &rarr; [one assert per test](https://github.com/VelvetFractal/voila/blob/main/tests.py#L1)
 
-&rarr; [loops usage](https://github.com/VelvetFractal/voila/blob/main/main.py#87)
+&rarr; [loops usage](https://github.com/VelvetFractal/voila/blob/main/main.py#L87)
 
 ### B)
 Creation of a Cheat Sheet for upcoming projects 

@@ -37,7 +37,7 @@ Project analytics: briefing of project, Favorite part of the project, Startup id
 ## 5. DDD
 Creation with Miro of Event Storming file and resulting Diagrams and DDD 
 
-&rarr; [file with Event Storming, Diagram and DDD](https://github.com/VelvetFractal/voila/blob/main/uml/pdf24_images_merged.pdf)
+&rarr; [file with Event Storming, Diagram and DDD](https://github.com/VelvetFractal/voila/blob/main/uml%20and%20other/Event%20Storming%2C%20Diagram%20and%20DDD.pdf)
 
 ## 6. Metrices
 Creation of SonarCloud account and connecting to repository (with advanced settings) for metric badges:

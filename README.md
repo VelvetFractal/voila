@@ -31,8 +31,11 @@ Creation of SonarCloud account and connecting to repository (with advanced setti
 &rarr; [Summary](https://sonarcloud.io/summary/overall?id=VelvetFractal_voila)
 
 &rarr; [Maintainability Rating](https://sonarcloud.io/project/issues?resolved=false&types=CODE_SMELL&id=VelvetFractal_voila)
+
 &rarr; [Bugs](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=VelvetFractal_voila)
+
 &rarr; [Duplicated Lines (%)](https://sonarcloud.io/component_measures?id=VelvetFractal_voila&metric=duplicated_lines_density&view=list)
+
 &rarr; [Security Hotspots](https://sonarcloud.io/project/security_hotspots?id=VelvetFractal_voila)
 
 

@@ -28,12 +28,12 @@ Creation with Miro of Event Storming file and resulting Diagrams and DDD
 ## 6. Metrices
 Creation of SonarCloud account and connecting to repository (with advanced settings) for metric badges:
 
-[Summary](https://sonarcloud.io/summary/overall?id=VelvetFractal_voila)
+&rarr; [Summary](https://sonarcloud.io/summary/overall?id=VelvetFractal_voila)
 
-[Maintainability Rating](https://sonarcloud.io/project/issues?resolved=false&types=CODE_SMELL&id=VelvetFractal_voila)
-[Bugs](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=VelvetFractal_voila)
-[Duplicated Lines (%)](https://sonarcloud.io/component_measures?id=VelvetFractal_voila&metric=duplicated_lines_density&view=list)
-[Security Hotspots](https://sonarcloud.io/project/security_hotspots?id=VelvetFractal_voila)
+&rarr; [Maintainability Rating](https://sonarcloud.io/project/issues?resolved=false&types=CODE_SMELL&id=VelvetFractal_voila)
+&rarr; [Bugs](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=VelvetFractal_voila)
+&rarr; [Duplicated Lines (%)](https://sonarcloud.io/component_measures?id=VelvetFractal_voila&metric=duplicated_lines_density&view=list)
+&rarr; [Security Hotspots](https://sonarcloud.io/project/security_hotspots?id=VelvetFractal_voila)
 
 
 ## 7. Clean Code Dev

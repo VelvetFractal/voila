@@ -24,7 +24,7 @@ UML Diagramm created made in Planttext
 
 &rarr; [PNGs and Planttext-Files](https://github.com/VelvetFractal/voila/tree/main/uml%20and%20other/uml-diag)
 
-## 3. Describing the project 
+## 3. Requirements  
 
 
 

@@ -32,7 +32,7 @@ UML Diagramm created made in Planttext
 ## 4. Analytics of project 
 Project analytics: briefing of project, Favorite part of the project, Startup idea
 
-&rarr; [PDF file with all text](https://github.com/VelvetFractal/voila/tree/main/uml%20and%20other/uml-diag)
+&rarr; [PDF file with all text](https://github.com/VelvetFractal/voila/blob/main/uml%20and%20other/Analysis%20of%20project.pdf)
 
 ## 5. DDD
 Creation with Miro of Event Storming file and resulting Diagrams and DDD 

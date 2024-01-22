@@ -108,6 +108,6 @@ Adding most favorite shortcuts here and create own to allow faster developemnt w
 
 &rarr; [functions as parameters and return values](https://github.com/VelvetFractal/voila/blob/main/main.py#L49)
 
-&rarr; [usege of  closures](https://github.com/VelvetFractal/voila/blob/main/tests.py#L90) a lot of them, for example check_wallet_activity
+&rarr; [usege of  closures](https://github.com/VelvetFractal/voila/blob/main/main.py#L90) a lot of them, for example check_wallet_activity
 
 &rarr; [loops usage](https://github.com/VelvetFractal/voila/blob/main/main.py#87)

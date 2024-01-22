@@ -19,10 +19,22 @@ usage of GitHub for the whole project time
 
 
 &rarr; [See commit history here](https://github.com/VelvetFractal/voila/commits)
+
 ## 5. DDD
 Creation with Miro of Event Storming file and resulting Diagrams and DDD 
 
 &rarr; [file with Event Storming, Diagram and DDD](https://github.com/VelvetFractal/voila/blob/main/uml/pdf24_images_merged.pdf)
+
+## 6. Metrices
+Creation of SonarCloud account and connecting to repository (with advanced settings) for metric badges:
+
+[Summary](https://sonarcloud.io/summary/overall?id=VelvetFractal_voila)
+
+[Maintainability Rating](https://sonarcloud.io/project/issues?resolved=false&types=CODE_SMELL&id=VelvetFractal_voila)
+[Bugs](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=VelvetFractal_voila)
+[Duplicated Lines (%)](https://sonarcloud.io/component_measures?id=VelvetFractal_voila&metric=duplicated_lines_density&view=list)
+[Security Hotspots](https://sonarcloud.io/project/security_hotspots?id=VelvetFractal_voila)
+
 
 ## 7. Clean Code Dev
 Adding clen code developemnt for improved usage and readabilty as well as for better maintance of code.

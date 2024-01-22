@@ -17,7 +17,12 @@ Bot has only two commands
 ## 1. Git
 usage of GitHub for the whole project time
 
+
 &rarr; [See commit history here](https://github.com/VelvetFractal/voila/commits)
+## 5. DDD
+Creation with Miro of Event Storming file and resulting Diagrams and DDD 
+
+&rarr; [file with Event Storming, Diagram and DDD](https://github.com/VelvetFractal/voila/blob/main/uml/pdf24_images_merged.pdf)
 
 ## 7. Clean Code Dev
 Adding clen code developemnt for improved usage and readabilty as well as for better maintance of code.
